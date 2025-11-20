@@ -158,7 +158,8 @@ various types of prompts:
   : Demonstrates how to prompt SAM 3 with text prompts on videos, and doing
   further interactive refinements with points.
 - [`sam3_image_batched_inference.ipynb`](examples/sam3_image_batched_inference.ipynb)
-  : Demonstrates how to run batched inference with SAM 3 on images.
+  : Demonstrates how to run batched inference with SAM 3 on images. See also the
+  [Batch Inference Guide](BATCH_INFERENCE.md) for a comprehensive summary.
 - [`sam3_agent.ipynb`](examples/sam3_agent.ipynb): Demonsterates the use of SAM
   3 Agent to segment complex text prompt on images.
 - [`saco_gold_silver_vis_example.ipynb`](examples/saco_gold_silver_vis_example.ipynb)
@@ -180,6 +181,12 @@ pip install -e ".[notebooks]"
 # Start Jupyter notebook
 jupyter notebook examples/sam3_image_predictor_example.ipynb
 ```
+
+## Documentation
+
+For detailed guides on specific topics, see:
+
+- **[Batch Inference Guide](BATCH_INFERENCE.md)** (批量推理指南) - Comprehensive guide on using SAM 3 for efficient batch processing of multiple images and queries
 
 ## Model
 
